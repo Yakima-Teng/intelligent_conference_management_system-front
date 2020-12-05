@@ -95,6 +95,20 @@ export const constantRoutes = [
     ]
   },
 
+  {
+    path: '/EditMeeting',
+    component: Layout,
+    redirect: '/EditMeeting/index',
+    children: [
+      {
+        path: '/',
+        name: 'EditMeeting',
+        component: () => import('@/views/EditMeeting/index'),
+        meta: { title: '编辑会议', tags: true }
+      }
+    ]
+  },
+
   // 404 page must be placed at the end !!!
   { path: '*', redirect: '/404', hidden: true }
 ]

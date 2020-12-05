@@ -1,8 +1,8 @@
 {
-  "name": "vue-admin-template",
-  "version": "4.4.0",
-  "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
-  "author": "Pan <panfree23@gmail.com>",
+  "name": "smart_meeting",
+  "version": "2.0",
+  "description": "智慧会议系统 by vue-element-admin",
+  "author": "Zhouhan <229375312@qq.com>",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",
@@ -37,7 +37,7 @@
     "babel-plugin-dynamic-import-node": "2.3.3",
     "chalk": "2.4.2",
     "connect": "3.6.6",
-    "eslint": "6.7.2",
+    "eslint": "^6.7.2",
     "eslint-plugin-vue": "6.2.2",
     "html-webpack-plugin": "3.2.0",
     "mockjs": "1.0.1-beta3",
